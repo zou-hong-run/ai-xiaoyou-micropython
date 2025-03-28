@@ -1,5 +1,6 @@
 import { getParams, getWebSocketUrl } from "../redrun.js";
 import Functions from "../functions/functions.js";
+import WebSocket from 'ws'
 import { getUserType, apiKey, appid, apiSecret } from "../../config.js";
 const config = {
   hostUrl: "wss://spark-api.xf-yun.com/v4.0/chat",
